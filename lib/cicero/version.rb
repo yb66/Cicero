@@ -1,3 +1,3 @@
 module Cicero
-  VERSION = "0.0.2iain"
+  VERSION = "0.0.3"
 end
