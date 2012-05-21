@@ -11,7 +11,10 @@ Gem::Specification.new do |s|
   s.summary     = %q{A lorem Ipsum generator}
   s.description = %q{A lorem Ipsum generator}
 
-  s.add_development_dependency "rspec"
+  s.add_development_dependency "rspec", "~>2.8"
+  s.add_development_dependency "simplecov", "~>0.6"
+  s.add_development_dependency "rake"
+  s.add_development_dependency "yard", "~>0.8"
   s.rubyforge_project = "cicero"
 
   s.files         = `git ls-files`.split("\n")
