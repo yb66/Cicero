@@ -8,3 +8,4 @@ docs/
 .yardoc
 bin/
 vendor/
+coverage/
