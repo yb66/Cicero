@@ -1,5 +1,7 @@
 require 'spec_helper'
 
+require_relative '../lib/cicero.rb' # and any other gems you need
+
 describe Cicero do
 
   before do

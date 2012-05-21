@@ -1,5 +1,7 @@
 # encoding: UTF-8
-require_relative "./spec_helper.rb"
+
+require "spec_helper"
+require_relative '../lib/cicero/cicero_text.rb'
 
 describe CiceroText do
 
